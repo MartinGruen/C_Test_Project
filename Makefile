@@ -1,6 +1,6 @@
 
 output: hello.o
-	gcc hello.o -o output
+	gcc hello.o -o out-hello
 
 main.o: hello.c
 	gcc -c main.c
